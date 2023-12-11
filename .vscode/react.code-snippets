@@ -1,0 +1,41 @@
+{
+  "React Component": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rc",
+    "body": [
+      "import * as React from 'react'",
+      "",
+      "const $1 = React.memo(() => {",
+      "  return <div>$0</div>",
+      "})",
+      "",
+      "export default $1",
+      ""
+    ],
+    "description": "React Component"
+  },
+  "React.useState": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "us",
+    "body": ["const [$1] = React.useState($0)"],
+    "description": "React.useState"
+  },
+  "React.useMemo": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "um",
+    "body": ["const $1 = React.useMemo(() => {", "  return $0", "}, [])"],
+    "description": "React.useMemo"
+  },
+  "React.useCallback": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "uc",
+    "body": ["const $1 = React.useCallback(() => {", "  $0", "}, [])"],
+    "description": "React.useCallback"
+  },
+  "React.useEffect": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "ue",
+    "body": ["React.useEffect(() => {", "  $0", "}, [])"],
+    "description": "React.useEffect"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "import lodash-es": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "ilodash",
+    "body": ["import * as _ from 'lodash-es'"],
+    "description": "import lodash-es"
+  },
+  "import react-router-dom": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "irouter",
+    "body": ["import { $0 } from 'react-router-dom'"],
+    "description": "import react-router-dom"
+  },
+  "import @just-react/hooks": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "ihooks",
+    "body": ["import { $0 } from '@just-react/hooks'"],
+    "description": "import @just-react/hooks"
+  },
+  "import @just-react/components": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "icomponents",
+    "body": ["import { $0 } from '@just-react/components'"],
+    "description": "import @just-react/components"
+  }
+}

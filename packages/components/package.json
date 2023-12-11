@@ -1,0 +1,7 @@
+{
+  "name": "@just-react/components",
+  "version": "0.0.1",
+  "description": "@just-react/components",
+  "main": "./src/index.ts",
+  "sideEffects": false
+}

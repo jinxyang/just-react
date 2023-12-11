@@ -1,0 +1,11 @@
+{
+  "name": "jinxyang",
+  "version": "0.0.1",
+  "description": "jinxyang",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}

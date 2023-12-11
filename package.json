@@ -1,0 +1,55 @@
+{
+  "name": "just-react",
+  "version": "0.0.1",
+  "description": "things for react",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts,.tsx --fix",
+    "dev:jinxyang": "pnpm --filter jinxyang dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jinxyang/just-react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jinxyang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jinxyang/just-react/issues"
+  },
+  "homepage": "https://github.com/jinxyang/just-react#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^15.2.0",
+    "prettier": "3.1.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.6"
+  },
+  "dependencies": {
+    "@just-react/components": "workspace:^0.0.1",
+    "@just-react/hooks": "workspace:^0.0.1",
+    "@just-react/utils": "workspace:^0.0.1",
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^18.2.42",
+    "@types/react-dom": "^18.2.17",
+    "lodash-es": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1"
+  }
+}
